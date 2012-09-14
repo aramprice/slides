@@ -4,7 +4,9 @@
 
 # Collectivize!
 
-## me@aramprice.com
+## aram price
+
+### sharethrough, inc.
 
 !SLIDE
 
@@ -24,7 +26,7 @@ AWS Console
 
 !SLIDE
 
-# Chef Server is discovered
+# Chef Server!
 
 queue installation montage
 
@@ -52,7 +54,7 @@ where do we get recipes
 
 !SLIDE
 
-# Enter Capistrano!
+# Capistrano!
 
 recipes go in the repo
 
@@ -102,8 +104,22 @@ cap i-deadbeef nodes:web:configure
 
 !SLIDE
 
-# Problems / Future
+# Problems
 
-sometimes packages aren't available
+launch + configure is slow when there's an outage
 
-CI that outputs an AIM
+packages become unavailable
+
+!SLIDE
+
+# Future
+
+bake recipes into an image (AMI)
+
+launch instances from a known good image
+
+!SLIDE
+
+thanks!
+
+questions?
